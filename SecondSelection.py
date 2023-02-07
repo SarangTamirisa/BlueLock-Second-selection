@@ -66,7 +66,7 @@ class SecondSelection:
                 add_tab[i] = add_tab[i] - num_top - num_bottom
                 add_tab[i + 1] = add_tab[i + 1] + num_top
             else:
-                print("I here")
+                print("Gather")
                 add_tab = self.final_rounds(table)
 
         u_table = table + add_tab
